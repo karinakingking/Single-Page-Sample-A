@@ -1,0 +1,47 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+body{
+   background-color: #dee4ed;    
+}
+
+div.container{
+
+    margin: auto;
+    float: left;
+    width: 40%;
+    background-color: #f7f7f7;  
+    border-radius: 25px;  
+
+}
+
+div.educontainer{
+    
+    width: 60%;
+    background-color: #424d5e;  
+    float: right;
+    border-radius: 25px;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 90%;
+    height: 25%;
+}
+
+h1{
+    text-align: center;
+}
+p.color{
+    text-align: center;
+    color: white;
+}
+h1.color{
+    color: white;
+}
+h1.name{
+    background-color: #d7e1f7;
+    border-radius: 25px;
+}
