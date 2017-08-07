@@ -1,47 +1,33 @@
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-
 body{
-   background-color: #dee4ed;    
+   background-color: #ef6972;
 }
 
-div.container{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ef6972;
+}
 
-    margin: auto;
+li {
     float: left;
-    width: 40%;
-    background-color: #f7f7f7;  
-    border-radius: 25px;  
-
 }
 
-div.educontainer{
-    
-    width: 60%;
-    background-color: #424d5e;  
-    float: right;
-    border-radius: 25px;
-
-}
-
-img{
+li a {
     display: block;
-    margin: 0 auto;
-    margin-top: 25px;
-    width: 90%;
-    height: 25%;
+    color: #56393b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: normal;
 }
 
-h1{
-    text-align: center;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #e59ca0;
 }
-p.color{
-    text-align: center;
-    color: white;
-}
-h1.color{
-    color: white;
-}
-h1.name{
-    background-color: #d7e1f7;
-    border-radius: 25px;
-}
+
+
